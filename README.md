@@ -23,10 +23,10 @@ Similar to Scanaerial, call python script from inside JOSM, process image and re
 - Install ext_tools plug in using JOSM
 - Install required python libraries
 - Download sat_image_to_building script and place it in ext_tools directory
- - /home/user/.local/share/JOSM/plugins/ext_tools/scanaerial-master/sat_image_to_building.py on Debian
+  - /home/user/.local/share/JOSM/plugins/ext_tools/scanaerial-master/sat_image_to_building.py on Debian
 - Add new tool to ext_tools in JOSM 
- - name: sat_image_to_building
- - CmdLine: path/sat_image_to_building {lat} {long} {TZoom}
+  - name: sat_image_to_building
+  - CmdLine: path/sat_image_to_building {lat} {long} {TZoom}
 
 ## Usage
 - Call from menu using tools > sat_image_to_building or set up hotkey(s) in JOSM Preferences
